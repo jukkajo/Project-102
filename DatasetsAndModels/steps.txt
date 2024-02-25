@@ -1,0 +1,11 @@
+change dataset home dir:
+
+nano /home/project102/.config/Ultralytics/settings.yaml
+-----------------------------------------------------------------------------
+train: ./CommonAerialObjects/train/images
+val: ./CommonAerialObjects/valid/images
+test: ./CommonAerialObjects/test/images
+
+nc: 7
+names: ['0', 'Birds', 'Drone', 'Plane', 'drone', 'helicopter', 'quadcopter']
+----------------------------------------------------------------------------
